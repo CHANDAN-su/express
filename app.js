@@ -62,7 +62,7 @@ app.get("/api/user/:id", (req, res) => {
 });
 
 
-
+console.log("hii");
 
 app.listen(port, () => {
     console.log(`Server run this port ${port}`);
